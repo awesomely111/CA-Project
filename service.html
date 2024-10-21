@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>B.S. GOYAL & CO</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: Bethany - v4.0.1
+  * Template URL: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+    <script>
+
+        const id = sessionStorage.getItem("id");
+
+        const services = {
+            "corporate_governance_services": {
+                "id": "corporate_governance_services",
+                "title": "Corporate Governance Services",
+                "description": "Consultancy services to ensure effective corporate governance practices.",
+                "large_description": "Corporate governance refers to a combination of laws, regulations, procedures, implicit rules and voluntary practices which help companies perform efficiently, maximize long-term value for shareholders, and consider the interests of other stakeholders such as buyers, government, and society. Lenders, whether national or international, look for corporate governance practices when evaluating exposure to a company. SEBI and listing agreements of various stock exchanges require that corporate governance standards are complied with.",
+                "services": [
+                    "Periodic monitoring through internal audit",
+                    "Independent audit",
+                    "Independent verification",
+                    "Effective supervision",
+                    "Accountability",
+                    "Sufficient number of independent directors on the board",
+                    "Formation of an independent audit committee for the board",
+                    "Adequate disclosure and transparency in reports",
+                    "Participation in board meetings"
+                ]
+            },
+            "corporate_services": {
+                "id": "corporate_services",
+                "title": "Corporate Services",
+                "description": "Services related to the incorporation and management of companies.",
+                "large_description": "Corporate services involve various activities related to the incorporation and management of companies, ensuring compliance with legal and regulatory requirements, and providing consultancy on corporate law matters.",
+                "services": [
+                    "Incorporation of company",
+                    "Consultancy on Company Law matters",
+                    "Planning for Mergers, Acquisitions, De-mergers, and Corporate re-organizations",
+                    "Filing of annual returns and various forms, documents",
+                    "Clause 49 review for compliance with fiscal, corporate, and tax laws",
+                    "Secretarial matters including share transfers",
+                    "Maintenance of statutory records",
+                    "Consultancy on public/rights/bonus issue of shares",
+                    "Change of name, objects, registered office, etc."
+                ]
+            },
+            "income_tax_services": {
+                "id": "income_tax_services",
+                "title": "Income Tax Services",
+                "description": "Comprehensive tax planning and advisory services for individuals and corporations.",
+                "large_description": "Income tax services include consultancy, planning, and advisory services to ensure effective tax management for corporates and individuals. These services help in managing the intricacies of tax law while minimizing tax burden through strategic planning.",
+                "services": [
+                    "Consultancy on various intricate matters pertaining to Income tax",
+                    "Effective tax management, tax structuring, and advisory services",
+                    "Tax planning for corporates and others",
+                    "Designing/restructuring salary structure to minimize tax burden",
+                    "Obtaining advance tax rulings",
+                    "Obtaining No Objection Certificates from the Income tax department",
+                    "Obtaining PAN for assessees, employees, etc.",
+                    "Advance tax estimation and deposit",
+                    "Assessing the liability towards deferred taxes",
+                    "Providing regular updates on amendments, circulars, notifications, and judgments",
+                    "Filing Income Tax and Wealth Tax returns for all kinds of assessees",
+                    "Filing Income tax returns for employees of corporate clients",
+                    "Liaison with the Income tax department for rectification, assessment, obtaining refunds, etc.",
+                    "Expertise in complicated direct tax assessments",
+                    "Filing and pleading appeals under various provisions of the IT Act",
+                    "Special expertise in search, seizure, and prosecution litigation",
+                    "Advice on future tax implications in respect of potential acquisitions",
+                    "Opinions on various Double Tax Avoidance Agreement related issues",
+                    "Settlement of various issues raised under FEMA"
+                ]
+            },
+            "services_for_non_residents": {
+                "id": "services_for_non_residents",
+                "title": "Services For Non-Residents",
+                "description": "Services tailored for non-resident individuals regarding tax and compliance.",
+                "large_description": "These services include assistance in allotting Permanent Account Numbers (PAN), tax planning, obtaining advance rulings on debatable issues, consultancy on FEMA/RBI matters, and filing income tax/wealth tax returns. Additionally, we provide advice on investments, issuing certificates for repatriation of income/assets from India, and making applications to the RBI for various matters, including property transactions.",
+                "services": [
+                    "Allotment of Permanent Account Number (PAN)",
+                    "Tax planning",
+                    "Obtaining advance rulings on debatable issues",
+                    "Consultancy/advice on FEMA/RBI matters",
+                    "Filing Income Tax/Wealth Tax Returns",
+                    "Advice on making investments",
+                    "Issuing certificate for repatriation of income/assets from India",
+                    "Making application to RBI for various matters including sale and purchase of residential and commercial properties"
+                ]
+            },
+            "gst_services": {
+                "id": "gst_services",
+                "title": "GST Services",
+                "description": "Expert services related to Goods and Services Tax compliance.",
+                "large_description": "GST services include migrations and registrations, filing of GST returns for various types of dealers, GST consultancy/advisory on various issues, impact analysis on business segments, GST audits as per the GST Act, implementation support, and maintenance of compliance records. We also assist in strategic business planning under the GST regime and provide verification services for GSTN numbers.",
+                "services": [
+                    "GST migrations and registrations",
+                    "Filing of GST returns (Regular Dealer, Composition Dealer, ISD, Non-Resident, E-Commerce, etc.)",
+                    "GST consultancy/advisory on various issues of GST",
+                    "Impact analysis on business segments",
+                    "GST audits as per GST Act, 2017",
+                    "GST implementation",
+                    "Compilation of data of Input Tax Credit",
+                    "GST assessments",
+                    "Transition from Pre-GST to GST regime",
+                    "Maintenance of records for compliance",
+                    "Strategic business planning under GST regime",
+                    "Supplier/Buyer management",
+                    "GSTN number verification services",
+                    "HSN code finder"
+                ]
+            },
+            "tds_services": {
+                "id": "tds_services",
+                "title": "Tax Deducted At Source (TDS) Services",
+                "description": "Comprehensive services related to TDS compliance and management.",
+                "large_description": "TDS services encompass advice on compliance with TDS/TCS provisions, obtaining Tax Deduction Account Numbers (TAN), periodic reviews of TDS compliance, computation and reconciliation of monthly TDS, and filing of quarterly E-TDS returns. Additionally, we issue monthly and annual TDS certificates and handle TDS assessments.",
+                "services": [
+                    "Advice on all matters related to compliance of TDS/TCS provisions",
+                    "Obtaining Tax Deduction Account Number (TAN)",
+                    "Periodic review of TDS/Withholding Tax compliance",
+                    "Computation of monthly TDS",
+                    "Monthly reconciliation of TDS due and deposited",
+                    "Monthly deposit of TDS electronically/manually",
+                    "Issue of monthly/annual TDS certificates",
+                    "Filing of quarterly E-TDS/manual returns",
+                    "Filing of correction statements",
+                    "TDS assessment"
+                ]
+            },
+            "audit_services": {
+                "id": "audit_services",
+                "title": "Audit Services",
+                "description": "Thorough audit services to ensure compliance and operational efficiency.",
+                "large_description": "Audit services involve an in-depth study of existing systems, procedures, and controls to understand operations fully. We ensure compliance with policies, procedures, and statutes, conduct comprehensive reviews to verify that accounts are prepared according to Generally Accepted Accounting Policies, and check the genuineness of booked expenses. We also detect inefficiencies and suggest corrective measures to prevent recurrence.",
+                "services": [
+                    "Indepth study of existing systems, procedures, and controls for proper understanding",
+                    "Suggestions for improvement and strengthening",
+                    "Ensuring compliance with policies, procedures, and statutes",
+                    "Comprehensive review to ensure that the accounts are prepared in accordance with Generally Accepted Accounting Policies and applicable Accounting Standards/IFRS",
+                    "Checking the genuineness of the expenses booked in accounts",
+                    "Reporting inefficiencies at any operational level",
+                    "Detection and prevention of leakages of income and suggesting corrective measures to prevent recurrence",
+                    "Certification of the books of account being in agreement with the Balance Sheet and Profit and Loss Account",
+                    "Issue of Audit Reports under various laws"
+                ],
+                "types_of_audits": [
+                    "Statutory Audit of Companies",
+                    "Tax Audit under Section 44AB of the Income Tax Act, 1961",
+                    "Audit under other sections of the Income Tax Act, 1961 such as 80HHC, 80-IA, etc.",
+                    "Concurrent Audits",
+                    "Revenue Audit of Banks",
+                    "Branch Audits of Banks",
+                    "Audit of PF Trusts, Charitable Trusts, Schools, etc.",
+                    "Audit of Co-operative Societies",
+                    "Information System Audit",
+                    "Internal Audits"
+                ]
+            },
+            "accounting_services": {
+                "id": "accounting_services",
+                "title": "Accounting Services",
+                "description": "Comprehensive accounting services for financial management.",
+                "large_description": "Accounting services cover the design and implementation of accounting systems, financial accounting, budgeting, financial reporting, and MIS reports. We also provide financial analysis, asset accounting management, and depreciation and amortization schedules.",
+                "services": [
+                    "Accounting system design & implementation",
+                    "Financial accounting",
+                    "Budgeting",
+                    "Financial reporting",
+                    "MIS reports",
+                    "Financial analysis",
+                    "Asset accounting management",
+                    "Depreciation and amortization schedules"
+                ]
+            }
+        };
+
+        function displayData() {
+            const id = sessionStorage.getItem("id");
+
+            // Check if the ID exists in session storage and services
+            if (id && services[id]) {
+                let data = services[id];
+                let details = `
+                    <h1 style="color: #444444;">${data.title}</h1>
+                    <ul style="color: #444444;">
+                        ${data.services.map(service => `<li>${service}</li>`).join('')}
+                    </ul>
+                `;
+                document.getElementById("text").innerHTML = details;
+            } else {
+                // Fallback if the ID is not valid or doesn't exist
+                document.getElementById("text").innerHTML = `<p>No valid service selected. Please try again.</p>`;
+            }
+        }
+
+        window.onload = displayData;  // Call the function when the window loads
+  
+
+
+    </script>
+
+</head>
+
+<body>
+
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container">
+            <div class="header-container d-flex align-items-center justify-content-between">
+                <div class="logo">
+                    <h1 class="text-light"><a href="index.html"><span>
+                                <!-- <img src="./assets/img/image.png" style="object-fit: contain;"> -->
+                            </span></a></h1>
+                    <!-- Uncomment below if you prefer to use an image logo -->
+                    <a href="index.html"><img src="./assets/img/image.png" alt="" class="img-fluid"></a>
+                </div>
+
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+                        <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+                        <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
+                        <!-- <li><a class="nav-link scrollto " href="index.html#portfolio">Knowledge Bank</a></li> -->
+                        <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
+                        <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="#">Drop Down 1</a></li>
+                <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Deep Drop Down 1</a></li>
+                    <li><a href="#">Deep Drop Down 2</a></li>
+                    <li><a href="#">Deep Drop Down 3</a></li>
+                    <li><a href="#">Deep Drop Down 4</a></li>
+                    <li><a href="#">Deep Drop Down 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Drop Down 2</a></li>
+                <li><a href="#">Drop Down 3</a></li>
+                <li><a href="#">Drop Down 4</a></li>
+              </ul>
+            </li> -->
+                        <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+                        <li><a class="getstarted scrollto" href="index.html#about">Get Started</a></li>
+                    </ul>
+                    <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav><!-- .navbar -->
+
+            </div><!-- End Header Container -->
+        </div>
+    </header>
+
+    <div class="service-container">
+        <section id="hero" class="d-flex align-items-center" style="height: min-content;">
+            <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
+            </div>
+    </div>
+    <section id="services" class="services section-bg">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="section-title" data-aos="fade-right">
+                        <h2>Services</h2>
+                        <p>Solutions for all your accounting and taxation needs</p>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+
+                    <div id="text" class="row">
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- ======= Footer ======= -->
+    <section id="contact">
+        <footer id="footer">
+      
+          <div class="footer-top">
+            <div class="container" >
+              <div class="row" style="display: inline-flex;justify-content: space-between;width: 100%;">
+      
+      
+                  <div class="col-lg-3 col-md-6 footer-contact">
+                    <h3>B.S. GOYAL & CO</h3>
+                    <p>
+                    SCO-7, First Floor,<br> 
+                    Near New Kamal Laboratory<br>
+                    New Leela Bhawan Market<br>
+                    Patiala (Pb), India<br><br>
+                      <strong>Phone:</strong><P>
+                        +91-7307000088
+                      </P> 
+                      <br>
+                        <strong>Email:</strong> <p >caankitjainpta@gmail.com</p> <br>
+                      
+                    </p>
+                  </div>
+                
+      
+      
+                  <div class=" col-lg-2 col-md-6 footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Terms</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy</a></li>
+      
+                    </ul>
+                  </div>
+      
+                  <div class="col-lg-2 col-md-6 footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Auditing</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Company Law Matters</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Financial Services</a></li>
+      
+                    </ul>
+                  </div>
+      
+                  <div class="col-lg-2 col-md-6 footer-links">
+                    <h4>Contact us</h4>
+                    <ul>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Book an appointment</a></li>
+      
+      
+                    </ul>
+                  </div>
+              
+      
+      
+              </div>
+            </div>
+          </div>
+      
+          <!-- <div class="container d-md-flex py-4">
+      
+            <div class="me-md-auto text-center text-md-start">
+              <div class="copyright">
+                &copy; Copyright <strong><span>Bethany</span></strong>. All Rights Reserved
+              </div>
+              <div class="credits">
+               
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              </div>
+            </div>
+            <div class="social-links text-center text-md-right pt-3 pt-md-0">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div> -->
+        </footer><!-- End Footer -->
+      
+      </section>
+      
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <!-- <script src="./servicesScript.js"></script> -->
+
+
+
+</body>
+
+</html>

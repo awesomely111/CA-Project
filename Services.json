@@ -1,0 +1,165 @@
+{
+  "corporate_governance_services": {
+    "id": "corporate_governance_services",
+    "title": "Corporate Governance Services",
+    "description": "Consultancy services to ensure effective corporate governance practices.",
+    "large_description": "Corporate governance refers to a combination of laws, regulations, procedures, implicit rules and voluntary practices which help companies perform efficiently, maximize long-term value for shareholders, and consider the interests of other stakeholders such as buyers, government, and society. Lenders, whether national or international, look for corporate governance practices when evaluating exposure to a company. SEBI and listing agreements of various stock exchanges require that corporate governance standards are complied with.",
+    "services": [
+      "Periodic monitoring through internal audit",
+      "Independent audit",
+      "Independent verification",
+      "Effective supervision",
+      "Accountability",
+      "Sufficient number of independent directors on the board",
+      "Formation of an independent audit committee for the board",
+      "Adequate disclosure and transparency in reports",
+      "Participation in board meetings"
+    ]
+  },
+  "corporate_services": {
+    "id": "corporate_services",
+    "title": "Corporate Services",
+    "description": "Services related to the incorporation and management of companies.",
+    "large_description": "Corporate services involve various activities related to the incorporation and management of companies, ensuring compliance with legal and regulatory requirements, and providing consultancy on corporate law matters.",
+    "services": [
+      "Incorporation of company",
+      "Consultancy on Company Law matters",
+      "Planning for Mergers, Acquisitions, De-mergers, and Corporate re-organizations",
+      "Filing of annual returns and various forms, documents",
+      "Clause 49 review for compliance with fiscal, corporate, and tax laws",
+      "Secretarial matters including share transfers",
+      "Maintenance of statutory records",
+      "Consultancy on public/rights/bonus issue of shares",
+      "Change of name, objects, registered office, etc."
+    ]
+  },
+  "income_tax_services": {
+    "id": "income_tax_services",
+    "title": "Income Tax Services",
+    "description": "Comprehensive tax planning and advisory services for individuals and corporations.",
+    "large_description": "Income tax services include consultancy, planning, and advisory services to ensure effective tax management for corporates and individuals. These services help in managing the intricacies of tax law while minimizing tax burden through strategic planning.",
+    "services": [
+      "Consultancy on various intricate matters pertaining to Income tax",
+      "Effective tax management, tax structuring, and advisory services",
+      "Tax planning for corporates and others",
+      "Designing/restructuring salary structure to minimize tax burden",
+      "Obtaining advance tax rulings",
+      "Obtaining No Objection Certificates from the Income tax department",
+      "Obtaining PAN for assessees, employees, etc.",
+      "Advance tax estimation and deposit",
+      "Assessing the liability towards deferred taxes",
+      "Providing regular updates on amendments, circulars, notifications, and judgments",
+      "Filing Income Tax and Wealth Tax returns for all kinds of assessees",
+      "Filing Income tax returns for employees of corporate clients",
+      "Liaison with the Income tax department for rectification, assessment, obtaining refunds, etc.",
+      "Expertise in complicated direct tax assessments",
+      "Filing and pleading appeals under various provisions of the IT Act",
+      "Special expertise in search, seizure, and prosecution litigation",
+      "Advice on future tax implications in respect of potential acquisitions",
+      "Opinions on various Double Tax Avoidance Agreement related issues",
+      "Settlement of various issues raised under FEMA"
+    ]
+  },
+  "services_for_non_residents": {
+    "id": "services_for_non_residents",
+    "title": "Services For Non-Residents",
+    "description": "Services tailored for non-resident individuals regarding tax and compliance.",
+    "large_description": "These services include assistance in allotting Permanent Account Numbers (PAN), tax planning, obtaining advance rulings on debatable issues, consultancy on FEMA/RBI matters, and filing income tax/wealth tax returns. Additionally, we provide advice on investments, issuing certificates for repatriation of income/assets from India, and making applications to the RBI for various matters, including property transactions.",
+    "services": [
+      "Allotment of Permanent Account Number (PAN)",
+      "Tax planning",
+      "Obtaining advance rulings on debatable issues",
+      "Consultancy/advice on FEMA/RBI matters",
+      "Filing Income Tax/Wealth Tax Returns",
+      "Advice on making investments",
+      "Issuing certificate for repatriation of income/assets from India",
+      "Making application to RBI for various matters including sale and purchase of residential and commercial properties"
+    ]
+  },
+  "gst_services": {
+    "id": "gst_services",
+    "title": "GST Services",
+    "description": "Expert services related to Goods and Services Tax compliance.",
+    "large_description": "GST services include migrations and registrations, filing of GST returns for various types of dealers, GST consultancy/advisory on various issues, impact analysis on business segments, GST audits as per the GST Act, implementation support, and maintenance of compliance records. We also assist in strategic business planning under the GST regime and provide verification services for GSTN numbers.",
+    "services": [
+      "GST migrations and registrations",
+      "Filing of GST returns (Regular Dealer, Composition Dealer, ISD, Non-Resident, E-Commerce, etc.)",
+      "GST consultancy/advisory on various issues of GST",
+      "Impact analysis on business segments",
+      "GST audits as per GST Act, 2017",
+      "GST implementation",
+      "Compilation of data of Input Tax Credit",
+      "GST assessments",
+      "Transition from Pre-GST to GST regime",
+      "Maintenance of records for compliance",
+      "Strategic business planning under GST regime",
+      "Supplier/Buyer management",
+      "GSTN number verification services",
+      "HSN code finder"
+    ]
+  },
+  "tds_services": {
+    "id": "tds_services",
+    "title": "Tax Deducted At Source (TDS) Services",
+    "description": "Comprehensive services related to TDS compliance and management.",
+    "large_description": "TDS services encompass advice on compliance with TDS/TCS provisions, obtaining Tax Deduction Account Numbers (TAN), periodic reviews of TDS compliance, computation and reconciliation of monthly TDS, and filing of quarterly E-TDS returns. Additionally, we issue monthly and annual TDS certificates and handle TDS assessments.",
+    "services": [
+      "Advice on all matters related to compliance of TDS/TCS provisions",
+      "Obtaining Tax Deduction Account Number (TAN)",
+      "Periodic review of TDS/Withholding Tax compliance",
+      "Computation of monthly TDS",
+      "Monthly reconciliation of TDS due and deposited",
+      "Monthly deposit of TDS electronically/manually",
+      "Issue of monthly/annual TDS certificates",
+      "Filing of quarterly E-TDS/manual returns",
+      "Filing of correction statements",
+      "TDS assessment"
+    ]
+  },
+  "audit_services": {
+    "id": "audit_services",
+    "title": "Audit Services",
+    "description": "Thorough audit services to ensure compliance and operational efficiency.",
+    "large_description": "Audit services involve an in-depth study of existing systems, procedures, and controls to understand operations fully. We ensure compliance with policies, procedures, and statutes, conduct comprehensive reviews to verify that accounts are prepared according to Generally Accepted Accounting Policies, and check the genuineness of booked expenses. We also detect inefficiencies and suggest corrective measures to prevent recurrence.",
+    "services": [
+      "Indepth study of existing systems, procedures, and controls for proper understanding",
+      "Suggestions for improvement and strengthening",
+      "Ensuring compliance with policies, procedures, and statutes",
+      "Comprehensive review to ensure that the accounts are prepared in accordance with Generally Accepted Accounting Policies and applicable Accounting Standards/IFRS",
+      "Checking the genuineness of the expenses booked in accounts",
+      "Reporting inefficiencies at any operational level",
+      "Detection and prevention of leakages of income and suggesting corrective measures to prevent recurrence",
+      "Certification of the books of account being in agreement with the Balance Sheet and Profit and Loss Account",
+      "Issue of Audit Reports under various laws"
+    ],
+    "types_of_audits": [
+      "Statutory Audit of Companies",
+      "Tax Audit under Section 44AB of the Income Tax Act, 1961",
+      "Audit under other sections of the Income Tax Act, 1961 such as 80HHC, 80-IA, etc.",
+      "Concurrent Audits",
+      "Revenue Audit of Banks",
+      "Branch Audits of Banks",
+      "Audit of PF Trusts, Charitable Trusts, Schools, etc.",
+      "Audit of Co-operative Societies",
+      "Information System Audit",
+      "Internal Audits"
+    ]
+  },
+  "accounting_services": {
+    "id": "accounting_services",
+    "title": "Accounting Services",
+    "description": "Comprehensive accounting services for financial management.",
+    "large_description": "Accounting services cover the design and implementation of accounting systems, financial accounting, budgeting, financial reporting, and MIS reports. We also provide financial analysis, asset accounting management, and depreciation and amortization schedules.",
+    "services": [
+      "Accounting system design & implementation",
+      "Financial accounting",
+      "Budgeting",
+      "Financial reporting",
+      "MIS reports",
+      "Financial analysis",
+      "Asset accounting management",
+      "Depreciation and amortization schedules"
+    ]
+  }
+}
+
